@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+
+    <title>Formulario Para Aplicar Como Desarrolador</title>
+    <link rel="icon" type="image/x-icon" href="icon_.ico">
+</head>
+
+<body>
+    
+    <h1 class="title" style="font-size: 30px;">Aplicar Como Desarrollador</h1>
+
+    <div class="form-container">
+        <div class="form-card">
+            
+            <form action="">
+                <h3 class="form-title">Nombre:</h3>
+                <input class="form-input" type="text" name="nombreText" id="nombreText" placeholder="Escribe Tu Nombre">
+
+                <h3 class="form-title">Correo Electronico:</h3>
+                <input class="form-input" type="text" name="correoText" id="correoText" placeholder="Escribe Tu Correo">
+
+                <h3 class="form-title">Edad (Opcional):</h3>
+                <input class="form-input" type="number" name="edadText" id="edadText" placeholder="Escribe Tu Edad">
+
+                <h3 class="form-title">Que Opcion Describe Mejor Tu Rol Actual:</h3>
+                <select class="form-input" style="color: gray; height: 25px; width: 418px;" name="rolText" id="rolText">
+                    <option value="default" hidden>Selecciona Tu Rol Actual</option>
+                    <option value="0">Técnico</option>
+                    <option value="0">Profesor</option>
+                    <option value="0">Particular</option>
+                    <option value="0">Prefiero no Decir</option>
+                </select>
+
+                <h3 class="form-title" style="margin-bottom: 14px;">Con Que Disponibilidad Cuenta Actualmente:</h3>
+                <div style="text-align: left;">
+                    <input class="form-input-radio" type="radio" name="dispoText" id="dispoText"><label for="Inmediata" style="color: white; font-family: 'Roboto', sans-serif; font-size: smaller; position: relative; bottom: 2px; left: 4px;">Inmediata</label><br>
+                    <input class="form-input-radio" type="radio" name="dispoText" id="dispoText"><label for="NoInmediata" style="color: white; font-family: 'Roboto', sans-serif; font-size: smaller; position: relative; bottom: 2px; left: 4px;">No Inmediata</label>
+                </div>
+
+                <h3 class="form-title">A Que Posicion Desea Aplicar:</h3>
+                <select class="form-input" style="color: gray; height: 25px; width: 418px;" name="rolText" id="rolText">
+                    <option value="default" hidden>Selecciona Una Opcion</option>
+                    <option value="0">Técnico</option>
+                    <option value="0">Profesor</option>
+                    <option value="0">Administrador</option>
+                </select>
+
+                <h3 class="form-title">Tiene Experiencia En Alguna De Las Siguientes Tecnologias:</h3>
+                <div style="text-align: left;">
+                    <input class="form-input-radio" type="checkbox" name="expC#Text" id="expC#Text"><label for="C#" style="color: white; font-family: 'Roboto', sans-serif; font-size: smaller; position: relative; bottom: 2px; left: 4px;">C#</label><br>
+                    <input class="form-input-radio" type="checkbox" name="expJavaText" id="expJavaText"><label for="Java" style="color: white; font-family: 'Roboto', sans-serif; font-size: smaller; position: relative; bottom: 2px; left: 4px;">Java</label><br>
+                    <input class="form-input-radio" type="checkbox" name="expHTML&CSSText" id="expHTML&CSSText"><label for="HTML y CSS" style="color: white; font-family: 'Roboto', sans-serif; font-size: smaller; position: relative; bottom: 2px; left: 4px;">HTML y CSS</label><br>
+                    <input class="form-input-radio" type="checkbox" name="expJSText" id="expJSText"><label for="JS" style="color: white; font-family: 'Roboto', sans-serif; font-size: smaller; position: relative; bottom: 2px; left: 4px;">JavaScript</label><br>
+                    <input class="form-input-radio" type="checkbox" name="expGOText" id="expGOText"><label for="GO" style="color: white; font-family: 'Roboto', sans-serif; font-size: smaller; position: relative; bottom: 2px; left: 4px;">GO</label><br>
+                    <input class="form-input-radio" type="checkbox" name="expRustText" id="expRustText"><label for="Rust" style="color: white; font-family: 'Roboto', sans-serif; font-size: smaller; position: relative; bottom: 2px; left: 4px;">Rust</label><br>
+                    <input class="form-input-radio" type="checkbox" name="expPythonText" id="expPythonText"><label for="Python" style="color: white; font-family: 'Roboto', sans-serif; font-size: smaller; position: relative; bottom: 2px; left: 4px;">Python</label><br>
+                </div>
+
+                <h3 class="form-title">Algo Que Quieras Contarnos Sobre Ti:</h3>
+                <textarea class="form-input" name="edadText" id="edadText" cols="30" rows="4" placeholder="(Opcional)" style="margin-left: 1rem; margin-right: 1rem; max-width: 410px; min-width: 410px; min-height: 80px;"></textarea>
+
+                <div class="form-button" style="text-align: center;">
+                    <button style="font-size: 14px;"><a href="video.html" class="button" target="_blank" style="color: white; display: block;">Enviar</a></button>
+                </div>
+
+
+                </div>
+
+            </form>
+
+        </div>
+    </div>
+
+    <div class="gitlink">
+        <button style="font-size: 18px;"><a href="https://github.com/DraXr27/html-formulario" class="button" target="_blank" style="color: white;">GitHub Repo</a></button>
+    </div>
+
+    <h2 class="message">Made By DraXr.</h2>
+
+
+</body>
+
+</html>

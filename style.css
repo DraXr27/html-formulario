@@ -1,0 +1,148 @@
+body {
+    background-image: url("assets/images/background.png");
+    background-size: cover;
+    background-color: rgb(88, 132, 106);
+}
+
+.title {
+    margin: 0;
+    position: absolute;
+    top: 5%;
+    left: 50%;
+    transform: translate(-50%, -5%);
+
+    font-family: 'Roboto', sans-serif;
+    text-transform: capitalize;
+    text-align: center;
+    color: white;
+    font: 900;
+}
+
+.form-container {
+    margin: 0;
+    position: absolute;
+    top: 70%;
+    left: 45.5%;
+    transform: translate(-45.5%, -50%);
+}
+
+.form-container > .form-card {
+    background-color: rgba(40, 47, 61, 0.897);
+    width: 450px;
+    margin: 6%;
+    padding: 6px;
+    border-color: rgb(40, 47, 61);
+    border-radius: 0.2rem;
+    box-shadow: 0px 0px 27px 5px rgba(0,0,0,0.1);
+    text-align: center;
+    transition: all 2s ease;
+}
+
+.form-card .form-title {
+    font-family: 'Roboto', sans-serif;
+    text-transform: capitalize;
+    text-align: left;
+    color: white;
+    margin: 1rem;
+    margin-bottom: 2%;
+}
+
+.form-card .form-input {
+    width: 410px;
+    line-height: 20px;
+    font-family: 'Roboto', sans-serif;
+    margin-bottom: 16px;
+    margin-top: 0%;
+    background-color: white;
+    border-radius: 4px;
+    border-color: transparent;
+}
+
+.form-card .form-input:focus {
+    outline-color: lightslategray;
+}
+
+.form-card .form-input-radio {
+    margin-left: 1rem;
+    margin-bottom: 10px;
+}
+
+.form-card .form-button button {
+    width: 418px;
+    background: rgb(55, 175, 101);
+    border: rgb(55, 175, 101);
+    border-radius: 4px;
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    text-transform: capitalize;
+    line-height: 2rem;
+    margin-top: 16px;
+    margin-bottom: 16px;
+    transition: all 0.2s ease;
+}
+
+.form-card > .form-button button:hover {
+    transform: scale(1.2);
+    color: lightblue;
+}
+
+.form-button a:link {
+    text-decoration: none;
+}
+
+.gitlink {
+    margin: 0;
+    position: fixed;
+    top: 99%;
+    left: 1%;
+    transform: translate(-1%, -99%);
+}
+
+.gitlink button {
+    text-align: center;
+    background: rgb(42, 40, 56);
+    color: white;
+    border: rgb(42, 40, 56);
+    border-radius: 0.2rem;
+    margin: 8px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    text-transform: capitalize;
+    line-height: 2.5rem;
+    transition: all 0.2s ease;
+}
+
+.gitlink button:hover {
+    transform: scale(1.2);
+    color: lightblue;
+}
+
+.gitlink a:link {
+    text-decoration: none;
+}
+
+.message {
+    text-align: center;
+    margin: 0;
+    position: fixed;
+    top: 99%;
+    left: 98%;
+    transform: translate(-98%, -99%);
+
+    font-family: 'Roboto', sans-serif;
+    text-transform: capitalize;
+    color: white;
+    font: 900;
+}
+
+
+
+::-webkit-scrollbar {
+    width: 8px;
+    height: 10px;
+  }
+
+::-webkit-scrollbar-thumb {
+    border-radius: 8px;
+    background: rgba(33, 46, 72, 0.897);
+  }
